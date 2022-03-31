@@ -1,20 +1,15 @@
-- file: about/syllabus
-  expand_sections: true
-
-- part: Part 1 - Introduction to Programming
+format: jb-book
+root: about/syllabus
+parts:
+- caption: Talk 1
   chapters:
-    - file: class/week01/week01_summary
-      title: Lecture 1 - Electric Charges
-      sections:
-        - file: class/week01/videos
-        - file: class/week01/lecture
-        # - file: class/week01/readings
-        # - file: class/week01/homework
-        # - file: class/week01/test
-        # - file: class/week01/lab
-        # - file: class/week01/learninglogs
+  - file: class/week01/week01_summary
+    title: Lecture 1 - Electric Charges
+    sections:
+      - file: class/week01/videos
+      - file: class/week01/lecture
 
-- part: Course Feedback
+- caption: Course Feedback
   chapters:
-    - file: about/feedback
-      title: Anonymous Feedback Form
+  - file: about/feedback
+    title: Anonymous Feedback Form
