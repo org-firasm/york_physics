@@ -1,13 +1,11 @@
 format: jb-book
 root: about/syllabus
 parts:
-- caption: Talk 1
+- caption: Week 9 - Electromagnetic Induction
   chapters:
-  - file: class/week01/week01_summary
-    title: Lecture 1 - Electric Charges
-    sections:
-      - file: class/week01/videos
-      - file: class/week01/lecture
+  - file: class/week09/videos
+  - file: class/week09/readings
+  - file: class/week09/lecture
 
 - caption: Course Feedback
   chapters:
